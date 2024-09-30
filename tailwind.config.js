@@ -7,13 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        'brandcolr': '#C51605'
+        'brandcolr': '#C51605',
+        'secondaryColor':'#333333',
       },
     },
     container: {
       center: true,
       padding: {
-        lg: '177px',
+        xl: '170px',
       },
     },
     fontFamily: {
