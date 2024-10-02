@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
 
     <>
-    <nav className='main_manu pt-[10px] lg:pt-[33px] px-[10px] sm:px-0 xl:px-0'>
+    <nav className='main_manu pt-[10px] lg:pt-[33px] px-[10px] sm:px-2 xl:px-2'>
             <div className="container">
                 <div className="manu_row flex justify-between items-center">
                     <div className="manu_logo">

@@ -23,16 +23,16 @@ const CommontCounter = ({ counterNumber, counterIcon, counterText, countPlus }) 
 const Handwash = () => {
   return (
     <section className='handwash w-full bg-[#ECEBE6] pb-[100px] lg:pb-[149px] mt-[60px] lg:mt-[121px] mb-[60px] lg:mb-[110px]'>
-      <div className="container mx-auto px-4 lg:px-0">
-        <div className="wash_item_row flex flex-col lg:flex-row lg:gap-[121px] pt-[100px] lg:pt-[205px] items-center">
-          <div className="handwash_text w-full lg:px-5 lg:w-[599px] text-center lg:text-left">
+      <div className="container">
+        <div className="wash_item_row flex flex-wrap lg:gap-[91px] pt-[100px] lg:pt-[205px] items-center">
+          <div className="handwash_text w-full lg:px-5 lg:w-[399px] text-center lg:text-left">
             <CommonHead commonHeadtext={'All skins types'} />
-            <div className="common_counter_row flex justify-center lg:justify-start gap-[20px] lg:gap-[80px] pt-[20px] flex-wrap">
+            <div className="common_counter_row flex justify-center lg:justify-start gap-[20px] lg:gap-[40px] pt-[20px] flex-wrap">
               <CommontCounter counterNumber={48} counterIcon={<FaBox />} counterText={'Products'} />
               <CommontCounter counterNumber={200} counterIcon={<FaShoppingBag />} countPlus={'+'} counterText={'Products sold'} />
               <CommontCounter counterNumber={99} counterIcon={<BsEmojiSmileFill />} countPlus={'+'} counterText={'Reviews'} />
             </div>
-            <h2 className='pt-[20px] lg:pt-[40px] pb-[20px] lg:pb-[40px] text-[24px] lg:text-[36px] font-ptSerif font-normal text-[#C51605]'>
+            <h2 className='pt-[20px] w-[370px] lg:pt-[40px] pb-[20px] lg:pb-[40px] text-[24px] lg:text-[36px] font-ptSerif font-normal text-[#C51605]'>
               Men’s Hand wash lorem
             </h2>
             <div className="card_price flex flex-col lg:flex-row items-center gap-[20px]">
@@ -41,7 +41,7 @@ const Handwash = () => {
             </div>
           </div>
           <div className="handwash_image mt-[40px] lg:mt-0 w-full lg:w-auto">
-            <img src="Images/hadn_wash.png" alt="Handwash product" className="mx-auto lg:mx-0 max-w-[300px] lg:max-w-none" />
+            <img src="Images/hadn_wash.png" alt="Handwash product" className="w-[450px]" />
           </div>
         </div>
       </div>
